@@ -55,7 +55,7 @@ class ComplexAndroidTests(unittest.TestCase):
         els = self.driver.find_elements_by_xpath('//android.widget.TextView')
         self.driver.scroll(els[7], els[3])
 
-        el = self.driver.find_element_by_accessibility_id('Views')
+        #el = self.driver.find_element_by_accessibility_id('Views')
 
     def test_smiley_face(self):
         # just for the fun of it.
